@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prezentacja Google Slides</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            background: black;
-        }
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
-    <script>
-        // Odświeżanie całej strony co 10 minut
-        setTimeout(() => location.reload(), 600000);
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prezentacja Google Slides</title>
+  <script>
+    // auto refresh strony co 10 minut
+    setTimeout(() => {
+      location.reload();
+    }, 600000);
+  </script>
 </head>
-<body>
-    <iframe 
-        src="https://docs.google.com/presentation/d/e/2PACX-1vTzqlRIMjvgCZNkNYuX4voGXVGo8JlCTYW_j5s6qL8Xyz-Ov0DE_wT5_29P8HzxqwsAPkdGYXi1aNPi/pub?start=true&loop=true&delayms=15000" 
-        allowfullscreen="true" 
-        mozallowfullscreen="true" 
-        webkitallowfullscreen="true">
-    </iframe>
+<body style="margin:0; padding:0; overflow:hidden;">
+  <iframe 
+    src=""https://docs.google.com/presentation/d/e/2PACX-1vTzqlRIMjvgCZNkNYuX4voGXVGo8JlCTYW_j5s6qL8Xyz-Ov0DE_wT5_29P8HzxqwsAPkdGYXi1aNPi/pubembed?start=true&loop=true&delayms=15000"" 
+    frameborder="0" 
+    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+    allowfullscreen="true" 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true">
+  </iframe>
 </body>
 </html>
