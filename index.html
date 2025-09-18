@@ -2,22 +2,24 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Prezentacja produkcja</title>
+  <title>Prezentacja</title>
   <style>
-    body, html {
+    body {
       margin: 0;
-      padding: 0;
-      height: 100%;
       background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
     iframe {
-      width: 100%;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       border: none;
     }
   </style>
   <script>
-    // Auto-reload co 2 godziny (7200000 ms)
+    // Automatyczne odświeżanie co 2 godziny (7200000 ms)
     setInterval(() => {
       location.reload();
     }, 7200000);
@@ -25,8 +27,8 @@
 </head>
 <body>
   <iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vTzqlRIMjvgCZNkNYuX4voGXVGo8JlCTYW_j5s6qL8Xyz-Ov0DE_wT5_29P8HzxqwsAPkdGYXi1aNPi/pub?start=true&loop=true&delayms=3000&rm=minimal" 
-    allowfullscreen>
+    src="https://docs.google.com/presentation/d/e/2PACX-1vTzqlRIMjvgCZNkNYuX4voGXVGo8JlCTYW_j5s6qL8Xyz-Ov0DE_wT5_29P8HzxqwsAPkdGYXi1aNPi/pubembed?start=true&loop=true&delayms=3000"
+    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
   </iframe>
 </body>
 </html>
